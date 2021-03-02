@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleSceneSound.unity
+- path: Assets/Scenes/AutoPlacement.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

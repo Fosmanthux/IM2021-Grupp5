@@ -8,17 +8,14 @@ public class LightEstimaiton : MonoBehaviour
     [SerializeField]
     private ARCameraManager arCameraManager;
 
-    [SerializeField]
+    //[SerializeField]
+    //private Text brightnessValue;
 
-    private Text brightnessValue;
+    //[SerializeField]
+    //private Text tempValue;
 
-    [SerializeField]
-
-    private Text tempValue;
-
-   [SerializeField]
-
-    private Text colorCorrectionValue;
+    //[SerializeField]
+    //private Text colorCorrectionValue;
 
     private Light currentLight;
 
@@ -26,7 +23,6 @@ public class LightEstimaiton : MonoBehaviour
     {
         currentLight = GetComponent<Light>();
     }
-
 
     private void OnEnable()
     {
@@ -39,35 +35,23 @@ public class LightEstimaiton : MonoBehaviour
     }
 
     private void FrameUpdated(ARCameraFrameEventArgs args)
-
     {
-
         if(args.lightEstimation.averageBrightness.HasValue)
-
         {
-            brightnessValue.text = $"Brightness: {args.lightEstimation.averageBrightness.Value}";
+            //brightnessValue.text = $"Brightness: {args.lightEstimation.averageBrightness.Value}";
             currentLight.intensity = args.lightEstimation.averageBrightness.Value;
         }
 
         if(args.lightEstimation.averageColorTemperature.HasValue)
-
         {
-
-            tempValue.text = $"Temp: {args.lightEstimation.averageColorTemperature.Value}";
+            //tempValue.text = $"Temp: {args.lightEstimation.averageColorTemperature.Value}";
             currentLight.colorTemperature = args.lightEstimation.averageColorTemperature.Value;
         }
 
-
         if(args.lightEstimation.colorCorrection.HasValue)
-
         {
-
-            colorCorrectionValue.text = $"Color: {args.lightEstimation.colorCorrection.Value}";
+            //colorCorrectionValue.text = $"Color: {args.lightEstimation.colorCorrection.Value}";
             currentLight.color = args.lightEstimation.colorCorrection.Value;
-
         }
     }
-
-
-
 }
