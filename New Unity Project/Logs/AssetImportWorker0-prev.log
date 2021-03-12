@@ -12,92 +12,152 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52422
+54058
 Successfully changed project path to: /Users/taylor/Desktop/Unity/IM2021-Grupp5/New Unity Project
 /Users/taylor/Desktop/Unity/IM2021-Grupp5/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/taylor/Desktop/Unity/IM2021-Grupp5/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0
-2021-03-11 18:53:42.671 Unity[4530:201777] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-03-11 18:53:42.671 Unity[4530:201777] Metal devices available: 1
-2021-03-11 18:53:42.671 Unity[4530:201777] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-03-11 18:53:42.672 Unity[4530:201777] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-03-12 09:30:05.118 Unity[6328:331870] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-03-12 09:30:05.118 Unity[6328:331870] Metal devices available: 1
+2021-03-12 09:30:05.119 Unity[6328:331870] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-03-12 09:30:05.119 Unity[6328:331870] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56530
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005216 seconds.
+Registered in 0.003087 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 31.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.834 seconds
+- Completed reload, in  3.094 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001128 seconds.
+Registered in 0.000983 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  1.168 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
+System memory in use before: 127.9 MB.
 System memory in use after: 128.0 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1922.
-Total: 2.250438 ms (FindLiveObjects: 0.256705 ms CreateObjectMapping: 0.059013 ms MarkObjects: 1.796784 ms  DeleteObjects: 0.135758 ms)
+Total: 3.257602 ms (FindLiveObjects: 0.374753 ms CreateObjectMapping: 0.097681 ms MarkObjects: 2.687863 ms  DeleteObjects: 0.095306 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Rest/Inlupp ljud/Dinosounds1.m4a
-  artifactKey: Guid(cfde4dc3d4328495abf34ef474279a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rest/Inlupp ljud/Dinosounds1.m4a using Guid(cfde4dc3d4328495abf34ef474279a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab520150b60d75a208ef1f12797370b') in 0.942582 seconds
-  Import took 0.947568 seconds .
+  path: Assets/Rest/Inlupp ljud/Dinosounds 1.mp3
+  artifactKey: Guid(df83c082e620e4c679d0fec4eac8abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rest/Inlupp ljud/Dinosounds 1.mp3 using Guid(df83c082e620e4c679d0fec4eac8abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2c6a10d4b30fa9593778ff7dca6860') in 1.870802 seconds
+  Import took 1.875495 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.240259 seconds.
-  path: Assets/Rest/Inlupp ljud/Dinosounds5.m4a
-  artifactKey: Guid(e35b6c50d04dd496ba7482537eb8af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rest/Inlupp ljud/Dinosounds5.m4a using Guid(e35b6c50d04dd496ba7482537eb8af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b925ca1eced0122f35ea2b38b1f1e0') in 0.006378 seconds
-  Import took 0.011994 seconds .
+  Time since last request: 0.000283 seconds.
+  path: Assets/Rest/Inlupp ljud/Dinosounds 2.mp3
+  artifactKey: Guid(917cf3fecf58442fd9f68a6a487b137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rest/Inlupp ljud/Dinosounds 2.mp3 using Guid(917cf3fecf58442fd9f68a6a487b137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508106d31cf3583047a9cba6cc41dba7') in 0.011442 seconds
+  Import took 0.015364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Rest/Inlupp ljud/Dinosounds5.m4a
-  artifactKey: Guid(e35b6c50d04dd496ba7482537eb8af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rest/Inlupp ljud/Dinosounds5.m4a using Guid(e35b6c50d04dd496ba7482537eb8af4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b925ca1eced0122f35ea2b38b1f1e0') in 0.007245 seconds
-  Import took 0.011645 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Rest/Inlupp ljud/Dinosounds 3.mp3
+  artifactKey: Guid(8e63d760a0e3b4d6990294207f748e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rest/Inlupp ljud/Dinosounds 3.mp3 using Guid(8e63d760a0e3b4d6990294207f748e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb2b699d43242a9f9f84812a8ac2684') in 0.011765 seconds
+  Import took 0.016568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.354072 seconds.
-  path: Assets/Rest/Inlupp ljud/Dinosounds4.m4a
-  artifactKey: Guid(643860f36a5544f55909c3695be0474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rest/Inlupp ljud/Dinosounds4.m4a using Guid(643860f36a5544f55909c3695be0474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596c6898cfdda0743872a78082bd323e') in 0.007506 seconds
-  Import took 0.013030 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Rest/Inlupp ljud/Dinosounds.mp3
+  artifactKey: Guid(14987c62e7b5546b9a1270acbe0ab225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rest/Inlupp ljud/Dinosounds.mp3 using Guid(14987c62e7b5546b9a1270acbe0ab225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0128bbbfe0aa57d15b67e8acd182506') in 0.006981 seconds
+  Import took 0.009498 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2.660018 seconds.
+  path: Assets/Rest/Inlupp ljud/Dinosounds 2.m4a
+  artifactKey: Guid(0955827355fea4be48155cef529e5ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rest/Inlupp ljud/Dinosounds 2.m4a using Guid(0955827355fea4be48155cef529e5ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59583733e8255e82c1dd1e9ebfcff798') in 0.880842 seconds
+  Import took 0.883886 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1447 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 3.254618 ms (FindLiveObjects: 0.366257 ms CreateObjectMapping: 0.088016 ms MarkObjects: 2.755316 ms  DeleteObjects: 0.043395 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1447 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 2.271579 ms (FindLiveObjects: 0.281753 ms CreateObjectMapping: 0.078763 ms MarkObjects: 1.816221 ms  DeleteObjects: 0.035335 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
