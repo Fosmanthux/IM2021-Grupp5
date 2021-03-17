@@ -39,8 +39,8 @@ public class AutoPlacementOfObjectTest : MonoBehaviour
             placedObject1 = Instantiate(objectArray[Random.Range(0, objectArray.Length)], planePosition, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
             // 2 ~ 3 meters away, random x (-2~2) 
-            //Vector3 objectPosition1 = new Vector3(planePosition.x + Random.Range(-2f,2f), planePosition.y, cameraPosition.z + Random.Range(2f, 3f));
-            //placedObject2 = Instantiate(objectArray[Random.Range(0, objectArray.Length)], objectPosition1, Quaternion.Euler(0, Random.Range(0, 360), 0));
+            Vector3 objectPosition1 = new Vector3(planePosition.x + Random.Range(-2f,2f), planePosition.y, cameraPosition.z + Random.Range(2f, 3f));
+            placedObject2 = Instantiate(objectArray[Random.Range(0, objectArray.Length)], objectPosition1, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
             // 4 ~ 5 meters
             //Vector3 objectPosition2 = new Vector3(planePosition.x + Random.Range(-2f, 2f), planePosition.y, cameraPosition.z + Random.Range(4f, 5f));

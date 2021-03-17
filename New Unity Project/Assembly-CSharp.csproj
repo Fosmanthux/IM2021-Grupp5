@@ -101,6 +101,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Scripts\PlacementObject.cs" />
+    <Compile Include="Assets\Scripts\PlacementWithSelectionController.cs" />
+    <Compile Include="Assets\Scripts\PlacementBoundingArea.cs" />
+    <Compile Include="Assets\Scripts\PlacementWithManySinglePrefabsSelectionController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
