@@ -124,6 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7c3f44a229d8741b5db66394154f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundingRadius: 1
+  boundingRadius: 1.5
   boundingAreaPosition: {x: 0, y: 0, z: 0}
   boundingAreaMaterial: {fileID: 2100000, guid: e99520831c1e0324d8016470dfe410e3, type: 2}

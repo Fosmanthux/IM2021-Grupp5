@@ -91,16 +91,19 @@ public class PlacementWithManySinglePrefabsSelectionController : MonoBehaviour
 
     void ChangeSelectedObject(PlacementObject selected)
     {
-        PlacementObject[] allOtherObjects = FindObjectsOfType<PlacementObject>();
-        foreach (PlacementObject placementObject in allOtherObjects)
+        PlacementObject[] allObjects = FindObjectsOfType<PlacementObject>();
+        foreach (PlacementObject placementObject in allObjects)
         {
             if (placementObject != lastSelectedObject)
             {
                 placementObject.Selected = false;
             }
-            else
+            else if (placementObject == lastSelectedObject && placementObject.Selected == false)
             {
                 placementObject.Selected = true;
+            } else if (placementObject == lastSelectedObject && placementObject.Selected == true)
+            {
+                placementObject.Selected = false;
             }
         }
     }

@@ -75,33 +75,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1992}
     - Class: 114
-      Script: {instanceID: 2306}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2308}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2512}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 2954}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3956}
+      Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 3962}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 4118}
+      Script: {instanceID: 3700}
     - Class: 114
-      Script: {instanceID: 17432}
+      Script: {instanceID: 3964}
     - Class: 114
-      Script: {instanceID: 26564}
+      Script: {instanceID: 3970}
     - Class: 114
-      Script: {instanceID: 26712}
+      Script: {instanceID: 4126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -301,6 +301,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 9064e8fe7df78da4bb7a8e2a982d6845
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementBoundingArea
+  - hash:
+      serializedVersion: 2
       Hash: 9b6303c7164a38e06044ec2036c18b6b
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -403,6 +409,12 @@ ScriptsOnlyBuild:
     className: XRReferenceObjectLibrary
   - hash:
       serializedVersion: 2
+      Hash: eaa1974784b7f268c7d8f4c7075ff732
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementWithManySinglePrefabsSelectionController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -439,10 +451,22 @@ ScriptsOnlyBuild:
     className: Benchmark03
   - hash:
       serializedVersion: 2
+      Hash: 97ba8f3ef234d5008ee8827536c53814
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementObject
+  - hash:
+      serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 96434a832ac4025875905c5bc4c33a7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacementWithSelectionController
   - hash:
       serializedVersion: 2
       Hash: de8c2a257a183731115d08b34b7bd746
@@ -451,7 +475,7 @@ ScriptsOnlyBuild:
     className: AROcclusionManager
   - hash:
       serializedVersion: 2
-      Hash: 3443ea1022401b86c56680ff2f10ca18
+      Hash: 09cc79fe1c1c20e3cd1ff5d9da250c39
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AutoPlacementOfObject
@@ -1073,36 +1097,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
-  - hash:
-      serializedVersion: 2
-      Hash: 97ba8f3ef234d5008ee8827536c53814
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementObject
-  - hash:
-      serializedVersion: 2
-      Hash: 96434a832ac4025875905c5bc4c33a7a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementWithSelectionController
-  - hash:
-      serializedVersion: 2
-      Hash: 9064e8fe7df78da4bb7a8e2a982d6845
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementBoundingArea
-  - hash:
-      serializedVersion: 2
-      Hash: eaa1974784b7f268c7d8f4c7075ff732
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementWithManySinglePrefabsSelectionController
-  - hash:
-      serializedVersion: 2
-      Hash: 1d5bc3e7bb888a63a555ab4847e67bd0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementWithManySelectionController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleSceneSelection 1.unity
