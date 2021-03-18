@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     - PlacementIndicator
     - PlacementObject
     - PlaneSetupManager
-    - SceneSwitcher
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -113,61 +112,61 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1526}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1764}
+      Script: {instanceID: 1766}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1844}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2016}
     - Class: 114
-      Script: {instanceID: 2146}
+      Script: {instanceID: 2148}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2302}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 2406}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2646}
+      Script: {instanceID: 2648}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 2984}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3074}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3222}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3492}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 3932}
+      Script: {instanceID: 3936}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 3970}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4130}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,23 +217,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1764}
+      Script: {instanceID: 1766}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2016}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2302}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 2406}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 3970}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -289,59 +288,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1526}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 1546}
+      Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1764}
+      Script: {instanceID: 1766}
     - Class: 114
-      Script: {instanceID: 2008}
+      Script: {instanceID: 2010}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 2016}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2134}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2302}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 2406}
     - Class: 114
-      Script: {instanceID: 2434}
+      Script: {instanceID: 2436}
     - Class: 114
-      Script: {instanceID: 2734}
+      Script: {instanceID: 2736}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 2984}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3492}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3744}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3970}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4010}
     - Class: 114
-      Script: {instanceID: 4130}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 38316}
+      Script: {instanceID: 4244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -745,12 +744,6 @@ ScriptsOnlyBuild:
     className: AREnvironmentProbeManager
   - hash:
       serializedVersion: 2
-      Hash: 96434a832ac4025875905c5bc4c33a7a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementWithSelectionController
-  - hash:
-      serializedVersion: 2
       Hash: de8c2a257a183731115d08b34b7bd746
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -827,12 +820,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbe
-  - hash:
-      serializedVersion: 2
-      Hash: 037c8a52eeeffa21da7868bbf715eee6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AutoPlacementOfObjectTest
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -983,12 +970,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Management.dll
     namespaceName: UnityEngine.XR.Management
     className: XRManagerSettings
-  - hash:
-      serializedVersion: 2
-      Hash: a1f11b786cc0a0131441646ad4b674bf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementController
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -1297,12 +1278,6 @@ ScriptsOnlyBuild:
     className: TextConsoleSimulator
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneSwitcher
-  - hash:
-      serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1385,12 +1360,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
-  - hash:
-      serializedVersion: 2
-      Hash: c5050b1280e738bb7d5d392bd348131a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacementWithManySelectionWithScaleController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Onboarding.unity

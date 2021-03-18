@@ -518,7 +518,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 505420435}
-  - component: {fileID: 505420436}
   - component: {fileID: 505420437}
   m_Layer: 0
   m_Name: PlacementIndicator
@@ -542,18 +541,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &505420436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505420434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94615af260afcb24ba986a3e09d4814c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &505420437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,7 +827,7 @@ GameObject:
   - component: {fileID: 672669048}
   - component: {fileID: 672669047}
   m_Layer: 0
-  m_Name: SceneSwitcher
+  m_Name: Game Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,9 +842,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 672669046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52e988e148bc6bf41976deddf6176342, type: 3}
+  m_Script: {fileID: 11500000, guid: f9b95d82c25f3c14e9bf58e19e48dd73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  modePanel: {fileID: 710130733}
 --- !u!4 &672669048
 Transform:
   m_ObjectHideFlags: 0
@@ -1600,8 +1588,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 672669047}
-        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
-        m_MethodName: NextScene
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
