@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ARFeatheredPlaneMeshVisualizer
+    - AudioManager
     - AutoPlacementOfObject
     - FadePlaneOnBoundaryChange
     - GameController
@@ -46,10 +47,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -108,67 +107,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1474}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1476}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 1526}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1764}
     - Class: 114
-      Script: {instanceID: 1826}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1998}
+      Script: {instanceID: 2014}
     - Class: 114
-      Script: {instanceID: 2128}
+      Script: {instanceID: 2146}
     - Class: 114
-      Script: {instanceID: 2280}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2308}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2382}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2646}
     - Class: 114
-      Script: {instanceID: 2694}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3222}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 3454}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 3892}
+      Script: {instanceID: 3932}
     - Class: 114
-      Script: {instanceID: 3926}
+      Script: {instanceID: 3966}
     - Class: 114
-      Script: {instanceID: 3972}
+      Script: {instanceID: 4012}
     - Class: 114
-      Script: {instanceID: 4088}
+      Script: {instanceID: 4130}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 4198}
+      Script: {instanceID: 4240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,27 +212,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1474}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1476}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 1492}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1764}
     - Class: 114
-      Script: {instanceID: 1998}
+      Script: {instanceID: 2014}
     - Class: 114
-      Script: {instanceID: 2280}
+      Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2382}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 3926}
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 3966}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -284,63 +285,63 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1474}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1476}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 1526}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1748}
+      Script: {instanceID: 1764}
     - Class: 114
-      Script: {instanceID: 1992}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 1998}
+      Script: {instanceID: 2014}
     - Class: 114
-      Script: {instanceID: 2116}
+      Script: {instanceID: 2132}
     - Class: 114
-      Script: {instanceID: 2280}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2308}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2382}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2412}
+      Script: {instanceID: 2434}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2734}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 3454}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3654}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 4006}
     - Class: 114
-      Script: {instanceID: 3972}
+      Script: {instanceID: 4012}
     - Class: 114
-      Script: {instanceID: 4088}
+      Script: {instanceID: 4130}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 4198}
+      Script: {instanceID: 4240}
     - Class: 114
-      Script: {instanceID: 194598}
+      Script: {instanceID: 38316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -450,6 +451,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sketchfab
+    className: SketchfabImporterWindow
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -552,6 +559,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sketchfab
+    className: SketchfabExporter
+  - hash:
+      serializedVersion: 2
       Hash: 9064e8fe7df78da4bb7a8e2a982d6845
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -574,6 +587,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: 2e04d72951e4a5de7ce6e49a642f1e86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -666,7 +685,7 @@ ScriptsOnlyBuild:
     className: XRReferenceObjectLibrary
   - hash:
       serializedVersion: 2
-      Hash: 869e6176f60f09198b02d56539265561
+      Hash: 44a6d5bcadf1142bfcd8198db07ee046
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlacementWithManySinglePrefabsSelectionController
@@ -694,6 +713,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sketchfab
+    className: SketchfabModelWindow
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -732,7 +757,7 @@ ScriptsOnlyBuild:
     className: AROcclusionManager
   - hash:
       serializedVersion: 2
-      Hash: 1f4f0eebfb829aee3dd951439f2da29b
+      Hash: 82429f5226f33301c3a93412de480ac4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AutoPlacementOfObject
@@ -814,6 +839,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d587e34c843548ec318b789be75ed905
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Sketchfab
+    className: SketchfabPlugin
   - hash:
       serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
@@ -1356,31 +1387,13 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+      Hash: c5050b1280e738bb7d5d392bd348131a
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Sketchfab
-    className: SketchfabModelWindow
-  - hash:
-      serializedVersion: 2
-      Hash: d587e34c843548ec318b789be75ed905
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sketchfab
-    className: SketchfabPlugin
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sketchfab
-    className: SketchfabExporter
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Sketchfab
-    className: SketchfabImporterWindow
+    namespaceName: 
+    className: PlacementWithManySelectionWithScaleController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Onboarding.unity
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/AutoPlacement.unity
-  playerPath: D:/DSV/IM/IM2021-Grupp5/New Unity Project/test2.apk
+  playerPath: D:/DSV/IM/IM2021-Grupp5/New Unity Project/Final.apk

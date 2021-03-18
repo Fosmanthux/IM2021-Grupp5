@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 [RequireComponent(typeof(ARRaycastManager))]
@@ -13,7 +14,18 @@ public class PlacementWithManySinglePrefabsSelectionController : MonoBehaviour
     private Camera arCamera;
 
     [SerializeField]
-    private bool displayCanvas = true; 
+    private bool displayCanvas = true;
+
+    [SerializeField]
+    private bool applyScalingPerObject = false;
+
+    [SerializeField]
+    private Slider scaleSlider;
+
+    [SerializeField]
+    private Text scaleTextValue;
+
+    private ARSessionOrigin aRSessionOrigin;
 
     private GameObject placedObject;
 
@@ -43,7 +55,24 @@ public class PlacementWithManySinglePrefabsSelectionController : MonoBehaviour
     void Awake()
     {
         arRaycastManager = GetComponent<ARRaycastManager>();
+        aRSessionOrigin = GetComponent<ARSessionOrigin>();
+        scaleSlider.onValueChanged.AddListener(ScaleChanged);
     }
+
+    private void ScaleChanged(float newValue)
+    {
+        if (applyScalingPerObject)
+        {
+            if (lastSelectedObject != null && lastSelectedObject.Selected)
+            {
+                lastSelectedObject.transform.parent.localScale = Vector3.one * newValue;
+            }
+        }
+        else
+            aRSessionOrigin.transform.localScale = Vector3.one * newValue;
+
+        scaleTextValue.text = $"Scale {newValue}";
+    } 
 
     void Update()
     {
