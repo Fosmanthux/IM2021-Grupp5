@@ -12,6 +12,9 @@ public class PlacementWithManySinglePrefabsSelectionController : MonoBehaviour
     [SerializeField]
     private Camera arCamera;
 
+    [SerializeField]
+    private bool displayCanvas = true; 
+
     private GameObject placedObject;
 
     private Vector2 touchPosition = default;
@@ -61,6 +64,18 @@ public class PlacementWithManySinglePrefabsSelectionController : MonoBehaviour
                         ChangeSelectedObject(lastSelectedObject);
                     }
                 }
+                else
+                {
+                    lastSelectedObject = null;
+                    if (lastSelectedObject == null)
+                    {
+                        PlacementObject[] allObjects = FindObjectsOfType<PlacementObject>();
+                        foreach (PlacementObject placementObject in allObjects)
+                        {
+                            placementObject.Selected = false;
+                        }
+                    }
+                }
 
                 if (arRaycastManager.Raycast(touchPosition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -98,12 +113,9 @@ public class PlacementWithManySinglePrefabsSelectionController : MonoBehaviour
             {
                 placementObject.Selected = false;
             }
-            else if (placementObject == lastSelectedObject && placementObject.Selected == false)
+            else
             {
                 placementObject.Selected = true;
-            } else if (placementObject == lastSelectedObject && placementObject.Selected == true)
-            {
-                placementObject.Selected = false;
             }
         }
     }

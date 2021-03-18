@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aea995996c196cf49a125db42196f6dd, type: 2}
+  - {fileID: 2100000, guid: a894c32667230be4bab566cf0390f8b7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -748,9 +748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arCameraManager: {fileID: 1577749886}
-  brightnessValue: {fileID: 2097068253}
-  tempValue: {fileID: 398756356}
-  colorCorrectionValue: {fileID: 426671549}
 --- !u!1 &1519466258
 GameObject:
   m_ObjectHideFlags: 0

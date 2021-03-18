@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637511465046381245
+      ticks: 637515949367206872
     m_Hash: 1154923832
   m_LockFileStatus:
     m_FilePath: D:/DSV/IM/IM2021-Grupp5/New Unity Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637511468170239595
+      ticks: 637516162457344507
     m_Hash: 3601438709
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

@@ -35,7 +35,9 @@ public class PlacementBoundingArea : MonoBehaviour
     {
         if (initialized)
         {
-            DrawBoundingArea(placementObject.Selected);
+            //DrawBoundingArea(placementObject.Selected);
+            placementObject.ToggleOverlay();
+            placementObject.ToggleInfoPanel();
         }
     }
 

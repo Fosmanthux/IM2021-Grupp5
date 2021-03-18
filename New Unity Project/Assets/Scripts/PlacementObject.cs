@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlacementObject : MonoBehaviour
 {
@@ -22,7 +23,10 @@ public class PlacementObject : MonoBehaviour
     private TextMeshPro OverlayText;
 
     [SerializeField]
-    private string OverlayDisplayText;
+    private TextMeshPro InfoText;
+
+    [SerializeField]
+    private GameObject infoPanel;
 
     private void Awake()
     {
@@ -33,9 +37,15 @@ public class PlacementObject : MonoBehaviour
         }
     }
 
-    public void ToggleOverlay()
+    public void ToggleOverlay() 
     {
         OverlayText.gameObject.SetActive(IsSelected);
-        OverlayText.text = OverlayDisplayText;
+
+        InfoText.gameObject.SetActive(IsSelected);
+    }
+
+    public void ToggleInfoPanel()
+    {
+        infoPanel.SetActive(IsSelected);
     }
 }

@@ -11,7 +11,6 @@ public class MainMenu : MonoBehaviour
     }
     public void quit()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         Debug.Log("Quit!");
         Application.Quit(); 
     }
@@ -20,6 +19,7 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu"); 
     }
+
     public void LoadOptionsScene()
     {
         SceneManager.LoadScene("Options"); 

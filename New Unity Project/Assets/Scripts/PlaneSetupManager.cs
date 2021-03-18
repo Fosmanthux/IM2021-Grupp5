@@ -9,6 +9,16 @@ public class PlaneSetupManager : MonoBehaviour
     public Material occlusionMat, planeMat;
     public GameObject planePrefab;
 
+    private void Awake()
+    {
+        planePrefab.GetComponent<Renderer>().material = occlusionMat;
+
+        foreach (var plane in planeManager.trackables)
+        {
+            plane.GetComponent<Renderer>().material = occlusionMat;
+        }
+    }
+
     public void SetOcclusionMaterial()
     {
         planePrefab.GetComponent<Renderer>().material = occlusionMat;
