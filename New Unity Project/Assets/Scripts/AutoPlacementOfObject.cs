@@ -21,16 +21,14 @@ public class AutoPlacementOfObject : MonoBehaviour
     private GameObject smallDino1;
     private GameObject smallDino2;
     private GameObject smallDino3;
-    private GameObject smallDino4;
-    private GameObject smallDino5;
 
     private GameObject dino1;
     private GameObject dino2;
     private GameObject dino3;
+    private GameObject dino4;
 
     private GameObject bigDino1;
     private GameObject bigDino2;
-    private GameObject bigDino3;
 
     [SerializeField]
     private ARPlaneManager arPlaneManager;
@@ -123,30 +121,24 @@ public class AutoPlacementOfObject : MonoBehaviour
             smallDino3 = Instantiate(smallDinoArray[Random.Range(0, smallDinoArray.Length)], objectPosition2, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
             // 5 +
-            Vector3 objectPosition3 = new Vector3(planePosition.x + Random.Range(-6f, -1f), planePosition.y, cameraPosition.z + Random.Range(6f, 7f));
-            smallDino4 = Instantiate(smallDinoArray[Random.Range(0, smallDinoArray.Length)], objectPosition3, Quaternion.Euler(0, Random.Range(0, 360), 0));
+            Vector3 objectPosition3 = new Vector3(planePosition.x + Random.Range(-15f, -5f), planePosition.y, cameraPosition.z + Random.Range(6f, 7f));
+            dino1 = Instantiate(smallDinoArray[Random.Range(0, smallDinoArray.Length)], objectPosition3, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
-            Vector3 objectPosition4 = new Vector3(planePosition.x + Random.Range(1f, 6f), planePosition.y, cameraPosition.z + Random.Range(6f, 7f));
-            smallDino5 = Instantiate(smallDinoArray[Random.Range(0, smallDinoArray.Length)], objectPosition4, Quaternion.Euler(0, Random.Range(0, 360), 0));
+            Vector3 objectPosition4 = new Vector3(planePosition.x + Random.Range(5f, 15f), planePosition.y, cameraPosition.z + Random.Range(6f, 7f));
+            dino2 = Instantiate(smallDinoArray[Random.Range(0, smallDinoArray.Length)], objectPosition4, Quaternion.Euler(0, Random.Range(0, 360), 0));
             
-            Vector3 objectPosition5 = new Vector3(planePosition.x + Random.Range(-10f, -6f), planePosition.y, cameraPosition.z + Random.Range(8f, 9f));
-            dino1 = Instantiate(allDinoArray[Random.Range(0, allDinoArray.Length)], objectPosition5, Quaternion.Euler(0, Random.Range(0, 360), 0));
+            Vector3 objectPosition5 = new Vector3(planePosition.x + Random.Range(-15f, -10f), planePosition.y, cameraPosition.z + Random.Range(8f, 9f));
+            dino3 = Instantiate(allDinoArray[Random.Range(0, allDinoArray.Length)], objectPosition5, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
-            Vector3 objectPosition6 = new Vector3(planePosition.x + Random.Range(-5f, 5f), planePosition.y, cameraPosition.z + Random.Range(8f, 9f));
-            dino2 = Instantiate(allDinoArray[Random.Range(0, allDinoArray.Length)], objectPosition6, Quaternion.Euler(0, Random.Range(0, 360), 0));
-
-            Vector3 objectPosition7 = new Vector3(planePosition.x + Random.Range(6f, 10f), planePosition.y, cameraPosition.z + Random.Range(8f, 9f));
-            dino3 = Instantiate(allDinoArray[Random.Range(0, allDinoArray.Length)], objectPosition7, Quaternion.Euler(0, Random.Range(0, 360), 0));
+            Vector3 objectPosition6 = new Vector3(planePosition.x + Random.Range(10f, 15f), planePosition.y, cameraPosition.z + Random.Range(8f, 9f));
+            dino4 = Instantiate(allDinoArray[Random.Range(0, allDinoArray.Length)], objectPosition6, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
             // 10 +
-            Vector3 objectPosition8 = new Vector3(planePosition.x + Random.Range(-20f, -5f), planePosition.y, cameraPosition.z + Random.Range(10f, 20f));
+            Vector3 objectPosition7 = new Vector3(planePosition.x + Random.Range(-20f, -10f), planePosition.y, cameraPosition.z + Random.Range(15f, 20f));
             bigDino1 = Instantiate(bigDinoArray[Random.Range(0, bigDinoArray.Length)], objectPosition7, Quaternion.Euler(0, Random.Range(0, 360), 0));
 
-            Vector3 objectPosition9 = new Vector3(planePosition.x + Random.Range(5f, 20f), planePosition.y, cameraPosition.z + Random.Range(10f, 20f));
+            Vector3 objectPosition8 = new Vector3(planePosition.x + Random.Range(10f, 20f), planePosition.y, cameraPosition.z + Random.Range(15f, 20f));
             bigDino2 = Instantiate(bigDinoArray[Random.Range(0, bigDinoArray.Length)], objectPosition8, Quaternion.Euler(0, Random.Range(0, 360), 0));
-
-            Vector3 objectPosition10 = new Vector3(planePosition.x + Random.Range(-30f, 30f), planePosition.y, cameraPosition.z + Random.Range(25f, 30f));
-            bigDino3 = Instantiate(bigDinoArray[Random.Range(0, bigDinoArray.Length)], objectPosition9, Quaternion.Euler(0, Random.Range(0, 360), 0));
         }
     }
 
