@@ -1,4 +1,0 @@
-#Fri Mar 19 11:40:04 CET 2021
-base.0=D\:\\DSV\\IM\\IM2021-Grupp5\\New Unity Project\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
